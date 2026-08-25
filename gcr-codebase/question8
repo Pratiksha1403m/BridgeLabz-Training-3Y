@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Report</title>
+</head>
+
+<body>
+
+    <!-- School Name -->
+    <h1>Student Report - Vidya Devi Jindal  School</h1>
+
+    <!-- Student Information -->
+    <table border="1">
+
+        <tr>
+            <th rowspan="2" title="Student Information">Student</th>
+            <th colspan="5">Subject Marks</th>
+        </tr>
+
+        <tr>
+            <th>English</th>
+            <th>Maths</th>
+            <th>Science</th>
+            <th>Hindi</th>
+            <th>Computer</th>
+        </tr>
+
+        <tr>
+            <td>Pratiksha Sharma</td>
+            <td>85</td>
+            <td>90</td>
+            <td>88</td>
+            <td>82</td>
+            <td>95</td>
+        </tr>
+
+        <!-- Total and Percentage -->
+        <tr>
+            <td colspan="3" title="Total Marks">Total: 440</td>
+            <td colspan="3" title="Percentage">Percentage: 88%</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
