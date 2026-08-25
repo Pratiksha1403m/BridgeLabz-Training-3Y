@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Database</title>
+</head>
+
+<body>
+
+    <h1>Movie Database</h1>
+
+    <!-- Movie Table -->
+    <table border="1" title="Movie Database">
+
+        <!-- Caption -->
+        <caption>Popular Movies</caption>
+
+        <tr>
+            <th>Movie Name</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>IMDB Rating</th>
+            <th>Link</th>
+        </tr>
+
+        <tr>
+            <td>3 Idiots</td>
+            <td>Comedy/Drama</td>
+            <td>2009</td>
+            <td>8.4</td>
+            <td>
+                <a href="https://www.imdb.com/">IMDB</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Taare Zameen Par</td>
+            <td>Drama</td>
+            <td>2007</td>
+            <td>8.3</td>
+            <td>
+                <a href="https://www.imdb.com/">IMDB</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Dangal</td>
+            <td>Sports/Drama</td>
+            <td>2016</td>
+            <td>8.3</td>
+            <td>
+                <a href="https://www.imdb.com/">IMDB</a>
+            </td>
+        </tr>
+
+        <!-- Colspan -->
+        <tr>
+            <td colspan="5">More movies will be added soon.</td>
+        </tr>
+
+    </table>
+
+    <!-- Note -->
+    <p>
+        <small>
+            Note: IMDB ratings are provided for educational purposes only.
+        </small>
+    </p>
+
+</body>
+</html>
