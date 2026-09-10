@@ -1,0 +1,81 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #172033;
+}
+
+header {
+    padding: 25px 8%;
+    background-color: #1e3a8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+/* Linear gradient section */
+.history {
+    min-height: 70vh;
+    padding: 15vh 10%;
+    background: linear-gradient(135deg, #bfdbfe, #dbeafe, #eff6ff);
+    text-align: center;
+}
+
+/* Radial gradient section */
+.places {
+    min-height: 70vh;
+    padding: 15vh 10%;
+    background: radial-gradient(circle, #fde68a, #fef3c7, #fff7ed);
+    text-align: center;
+    border: 5px solid #f59e0b;
+}
+
+/* Fixed background */
+.food {
+    min-height: 70vh;
+    padding: 15vh 10%;
+    background-color: #dcfce7;
+    background-image: url("https://via.placeholder.com/1200x700");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+}
+
+.history h2,
+.places h2,
+.food h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.history p,
+.places p,
+.food p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #172554;
+    color: white;
+}

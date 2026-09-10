@@ -1,0 +1,72 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #e5e7eb;
+    font-family: Georgia, serif;
+}
+
+.newspaper {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.newspaper > h1 {
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 4px solid #111827;
+    padding-bottom: 20px;
+}
+
+.newspaper > h2 {
+    column-span: all;
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px 0;
+}
+
+/* Three newspaper columns */
+.columns {
+    column-count: 3;
+    column-gap: 40px;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+/* Image aligned left using float */
+.columns img {
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
+    float: left;
+    margin: 0 15px 10px 0;
+}
+
+.columns p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+    .columns {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 500px) {
+    .columns {
+        column-count: 1;
+    }
+
+    .newspaper {
+        padding: 20px;
+    }
+}
+
