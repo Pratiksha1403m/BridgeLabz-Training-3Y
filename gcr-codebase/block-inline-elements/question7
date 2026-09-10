@@ -12,7 +12,6 @@
 
     <table border="1">
 
-        <!-- Table Header -->
         <thead>
             <tr>
                 <th>Session</th>
@@ -22,7 +21,6 @@
             </tr>
         </thead>
 
-        <!-- Table Body -->
         <tbody>
 
             <tr>
@@ -60,7 +58,6 @@
 
         </tbody>
 
-        <!-- Table Footer -->
         <tfoot>
             <tr>
                 <td colspan="4">Conference ends at 6:00 PM</td>

@@ -8,12 +8,10 @@
 
 <body>
 
-    <!-- Restaurant Header -->
     <header>
         <h1>Food Paradise Restaurant</h1>
     </header>
 
-    <!-- Navigation -->
     <nav>
         <a href="#starters">Starters</a> |
         <a href="#maincourse">Main Course</a> |
@@ -22,7 +20,6 @@
 
     <hr>
 
-    <!-- Starters -->
     <section id="starters">
         <h2>Starters</h2>
 
@@ -47,7 +44,6 @@
         </table>
     </section>
 
-    <!-- Main Course -->
     <section id="maincourse">
         <h2>Main Course</h2>
 
@@ -72,7 +68,6 @@
         </table>
     </section>
 
-    <!-- Desserts -->
     <section id="desserts">
         <h2>Desserts</h2>
 
@@ -99,9 +94,8 @@
 
     <hr>
 
-    <!-- Footer -->
     <footer>
-        <p>Contact: +91 0000000000</p>
+        <p>Contact: +91 9119719008</p>
         <p>Address: kosi kalan uttar pradesh</p>
     </footer>
 

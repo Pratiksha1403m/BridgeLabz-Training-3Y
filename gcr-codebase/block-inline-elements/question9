@@ -8,15 +8,12 @@
 
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Top 3 Travel Destinations</h1>
     </header>
 
-    <!-- Main Content -->
     <main>
 
-        <!-- Destination 1 -->
         <article>
             <h2>Paris, France</h2>
 
@@ -32,7 +29,6 @@
             </blockquote>
         </article>
 
-        <!-- Destination 2 -->
         <article>
             <h2>Manali, India</h2>
 
@@ -66,7 +62,6 @@
 
     </main>
 
-    <!-- Travel Tips -->
     <aside>
         <h2>Travel Tips</h2>
 
@@ -78,7 +73,6 @@
         </ul>
     </aside>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Travel Guide. All Rights Reserved.</p>
     </footer>

@@ -10,7 +10,6 @@
 
     <h1>Quotation Showcase</h1>
 
-    <!-- Quote 1 -->
     <section>
         <h2>Quote About Success</h2>
 
@@ -23,7 +22,6 @@
         </p>
     </section>
 
-    <!-- Quote 2 -->
     <section>
         <h2>Quote About Life</h2>
 
@@ -36,7 +34,6 @@
         </p>
     </section>
 
-    <!-- Quote 3 -->
     <section>
         <h2>Quote About Dreams</h2>
 
@@ -49,7 +46,6 @@
         </p>
     </section>
 
-    <!-- Summary -->
     <p>
         Quotes inspire people by giving them motivation, hope and
         positive thoughts. They can help us learn from the experiences

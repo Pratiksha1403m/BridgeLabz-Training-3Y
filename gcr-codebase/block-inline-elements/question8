@@ -8,10 +8,8 @@
 
 <body>
 
-    <!-- School Name -->
     <h1>Student Report - Vidya Devi Jindal  School</h1>
 
-    <!-- Student Information -->
     <table border="1">
 
         <tr>
@@ -36,7 +34,6 @@
             <td>95</td>
         </tr>
 
-        <!-- Total and Percentage -->
         <tr>
             <td colspan="3" title="Total Marks">Total: 440</td>
             <td colspan="3" title="Percentage">Percentage: 88%</td>

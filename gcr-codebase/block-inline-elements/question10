@@ -10,7 +10,6 @@
 
     <h1>Travel Selection Page</h1>
 
-    <!-- Country Selection -->
     <label for="country">Country:</label>
 
     <select id="country">
@@ -22,7 +21,6 @@
 
     <br><br>
 
-    <!-- State Selection -->
     <label for="state">State:</label>
 
     <select id="state">
@@ -34,7 +32,6 @@
 
     <br><br>
 
-    <!-- City Selection -->
     <label for="city">City:</label>
 
     <select id="city">
@@ -46,7 +43,6 @@
 
     <br><br>
 
-    <!-- Tourist Place Selection -->
     <label for="place">Favorite Tourist Place:</label>
 
     <select id="place">
@@ -56,7 +52,6 @@
         <option>Gateway of India</option>
     </select>
 
-    <!-- Summary -->
     <p>
         My selected choices are India,kosi kalan, and Agra
         and my favorite tourist place is Taj Mahal.

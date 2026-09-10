@@ -8,14 +8,12 @@
 
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Pratiksha Sharma</h1>
-        <p>Email: pratiksha@example.com</p>
-        <p>Phone: +91 0000000000</p>
+        <p>Email: cs9536815179@gmail.com</p>
+        <p>Phone: +91 9119719008</p>
     </header>
 
-    <!-- Navigation -->
     <nav>
         <a href="#about">About</a> |
         <a href="#skills">Skills</a> |
@@ -25,10 +23,8 @@
 
     <hr>
 
-    <!-- Main Content -->
     <main>
 
-        <!-- About Me -->
         <section id="about">
             <h2>About Me</h2>
             <p>
@@ -37,7 +33,6 @@
             </p>
         </section>
 
-        <!-- Skills -->
         <section id="skills">
             <h2>Skills</h2>
             <ul>
@@ -49,7 +44,6 @@
             </ul>
         </section>
 
-        <!-- Projects -->
         <section id="projects">
             <h2>Projects</h2>
             <ol>
@@ -59,7 +53,6 @@
             </ol>
         </section>
 
-        <!-- Education -->
         <section id="education">
             <h2>Education</h2>
 
@@ -94,7 +87,6 @@
 
     <hr>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2026 Pratiksha Sharma. All Rights Reserved.</p>
     </footer>

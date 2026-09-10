@@ -8,12 +8,10 @@
 
 <body>
 
-    <!-- Company Header -->
     <header>
         <h1>TechNova Solutions</h1>
     </header>
 
-    <!-- Navigation -->
     <nav>
         <a href="#">Home</a> |
         <a href="#">About</a> |
@@ -23,10 +21,8 @@
 
     <hr>
 
-    <!-- Main Content -->
     <main>
 
-        <!-- About Company -->
         <section>
             <h2>About the Company</h2>
 
@@ -36,7 +32,6 @@
             </p>
         </section>
 
-        <!-- Services -->
         <section>
             <h2>Services Offered</h2>
 
@@ -50,7 +45,6 @@
 
     </main>
 
-    <!-- CEO Quote -->
     <aside>
         <h2>CEO Message</h2>
 
@@ -63,7 +57,6 @@
 
     <hr>
 
-    <!-- Footer -->
     <footer>
         <p>Email: contact@technova.com</p>
         <p>Address: New Delhi, India</p>

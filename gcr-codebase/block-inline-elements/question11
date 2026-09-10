@@ -8,12 +8,10 @@
 
 <body>
 
-    <!-- Header -->
     <header>
         <h1>Daily News</h1>
     </header>
 
-    <!-- Navigation -->
     <nav>
         <a href="#">Sports</a> |
         <a href="#">Technology</a> |
@@ -22,10 +20,8 @@
 
     <hr>
 
-    <!-- Main News -->
     <main>
 
-        <!-- Article 1 -->
         <article>
             <h2>India Wins Cricket Match</h2>
 
@@ -41,7 +37,6 @@
 
         <hr>
 
-        <!-- Article 2 -->
         <article>
             <h2>New Technology Trends</h2>
 
@@ -57,7 +52,6 @@
 
         <hr>
 
-        <!-- Article 3 -->
         <article>
             <h2>Important Political Update</h2>
 
@@ -73,7 +67,6 @@
 
     </main>
 
-    <!-- Popular Topics -->
     <aside>
         <h2>Popular Topics</h2>
 
@@ -87,7 +80,6 @@
 
     <hr>
 
-    <!-- Footer -->
     <footer>
         <p>Contact: news@example.com</p>
         <p>&copy; 2026 Daily News. All Rights Reserved.</p>

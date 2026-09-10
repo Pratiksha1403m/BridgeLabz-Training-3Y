@@ -10,10 +10,8 @@
 
     <h1>Movie Database</h1>
 
-    <!-- Movie Table -->
     <table border="1" title="Movie Database">
 
-        <!-- Caption -->
         <caption>Popular Movies</caption>
 
         <tr>
@@ -54,14 +52,12 @@
             </td>
         </tr>
 
-        <!-- Colspan -->
         <tr>
             <td colspan="5">More movies will be added soon.</td>
         </tr>
 
     </table>
 
-    <!-- Note -->
     <p>
         <small>
             Note: IMDB ratings are provided for educational purposes only.

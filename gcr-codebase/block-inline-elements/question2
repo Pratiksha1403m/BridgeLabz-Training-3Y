@@ -8,10 +8,9 @@
 
 <body>
 
-    <!-- Page Heading -->
     <h1>Online Store - Product Catalog</h1>
 
-    <!-- Product Table -->
+  
     <table border="1">
 
         <tr>
