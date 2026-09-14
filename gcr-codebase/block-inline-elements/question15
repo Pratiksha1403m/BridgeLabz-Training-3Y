@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pratiksha Sharma - Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Pratiksha Sharma</h1>
+        <p>B.Tech Computer Science Student</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a> |
+        <a href="#skills">Skills</a> |
+        <a href="#projects">Projects</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- About Me -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a B.Tech Computer Science student interested in
+                Java programming, web development and problem solving.
+                I enjoy learning new technologies and building projects.
+            </p>
+
+            <blockquote>
+                "The only way to do great work is to love what you do."
+            </blockquote>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Git and GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <ol>
+                <li>Smart Placement Automation System</li>
+                <li>AI-Powered Student Assistant</li>
+                <li>Personal Portfolio Website</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <!-- Contact Information -->
+    <aside id="contact">
+        <h2>Contact Info</h2>
+
+        <p>Email: pratiksha@example.com</p>
+        <p>Phone: +91 0000000000</p>
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/">My LinkedIn Profile</a>
+        </p>
+    </aside>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Pratiksha Sharma. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

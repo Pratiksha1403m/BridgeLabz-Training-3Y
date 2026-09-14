@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Catalog</title>
+</head>
+
+<body>
+
+    <!-- Page Heading -->
+    <h1>Online Store - Product Catalog</h1>
+
+    <!-- Product Table -->
+    <table border="1">
+
+        <tr>
+            <th colspan="5">Product Catalog</th>
+        </tr>
+
+        <tr>
+            <th>Product Image</th>
+            <th>Product Name</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Availability</th>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/100" alt="Laptop">
+            </td>
+            <td>Laptop</td>
+            <td>Powerful laptop for students and professionals.</td>
+            <td>₹50,000</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/100" alt="Headphones">
+            </td>
+            <td>Headphones</td>
+            <td>Wireless headphones with clear sound.</td>
+            <td>₹2,000</td>
+            <td>Available</td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="https://via.placeholder.com/100" alt="Keyboard">
+            </td>
+            <td>Keyboard</td>
+            <td>Comfortable keyboard for typing and gaming.</td>
+            <td>₹1,500</td>
+            <td>Out of Stock</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Special Offer</td>
+            <td colspan="4">10% discount on selected products.</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">Offer valid for limited time.</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
