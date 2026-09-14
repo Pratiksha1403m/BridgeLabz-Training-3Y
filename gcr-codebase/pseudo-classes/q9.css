@@ -1,0 +1,88 @@
+/* Basic page */
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f5f5;
+}
+
+
+/* Header */
+header {
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: #263238;
+
+    color: white;
+}
+
+
+/* Flexbox distributes examples */
+.effects {
+    min-height: 65vh;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+
+/* Common button styling */
+.effect-button {
+    padding: 18px 30px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: #1976d2;
+
+    color: white;
+
+    font-size: 17px;
+
+    box-shadow: 0 5px 10px #aaa;
+
+    /* Smooth transition */
+    transition: all 0.4s ease;
+
+    cursor: pointer;
+}
+
+
+/* Hover combines:
+   pseudo-class + transform + color + shadow */
+.effect-button:hover {
+    background-color: #e91e63;
+
+    transform: scale(1.1) translateY(-5px);
+
+    box-shadow: 0 10px 20px #888;
+}
+
+
+/* Active state */
+.effect-button:active {
+    transform: scale(0.95);
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+
+    padding: 15px;
+
+    background-color: #263238;
+
+    color: white;
+}

@@ -1,0 +1,87 @@
+/* Basic page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #263238;
+    color: white;
+}
+
+/* Flexbox arranges all examples */
+.examples {
+    min-height: 65vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Individual example cards */
+.example {
+    width: 200px;
+    min-height: 220px;
+
+    padding: 20px;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px #ccc;
+
+    text-align: center;
+}
+
+/* :hover pseudo-class */
+.example a:hover {
+    color: #e91e63;
+    text-decoration: underline;
+}
+
+/* :focus pseudo-class */
+.example input:focus {
+    outline: 3px solid #1976d2;
+}
+
+/* :active pseudo-class */
+.example button:active {
+    background-color: #388e3c;
+    color: white;
+}
+
+/* :nth-child() pseudo-class */
+.example li:nth-child(2) {
+    background-color: #ffeb3b;
+}
+
+/* Input */
+input {
+    padding: 10px;
+    width: 150px;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #263238;
+    color: white;
+}
