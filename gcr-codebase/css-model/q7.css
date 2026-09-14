@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #263238;
+    color: white;
+}
+
+/* Article */
+.article {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+
+    /* Comfortable line spacing */
+    line-height: 1.8;
+
+    /* General text alignment */
+    text-align: left;
+}
+
+/* Main heading */
+.article h2 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Introduction */
+.intro {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* Serif font */
+.serif {
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+
+/* Sans-serif font */
+.sans-serif {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Monospace font */
+.mono {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+/* Custom styling for mark */
+mark {
+    background-color: #fff176;
+    color: #c62828;
+    padding: 2px 5px;
+}
+
+/* Strong element */
+strong {
+    color: #1565c0;
+}
+
+/* Emphasized text */
+em {
+    color: #6a1b9a;
+}
+
+/* First letter styling */
+.article p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* First line styling */
+.intro::first-line {
+    letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #263238;
+    color: white;
+}

@@ -1,0 +1,113 @@
+/* Basic styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #263238;
+    color: white;
+}
+
+.selector-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+}
+
+/* ================================
+   ATTRIBUTE SELECTORS
+   ================================ */
+
+/* Selects input elements whose type is text */
+input[type="text"] {
+    border: 3px solid #1976d2;
+}
+
+/* Selects links whose href starts with https */
+a[href^="https"] {
+    color: #d32f2f;
+}
+
+/* ================================
+   PSEUDO-CLASSES
+   ================================ */
+
+/* Hover pseudo-class */
+button:hover {
+    background-color: #388e3c;
+    color: white;
+}
+
+/* Focus pseudo-class */
+input:focus {
+    outline: 3px solid #ff9800;
+}
+
+/* Selects every second list item */
+.items li:nth-child(2) {
+    background-color: #fff3cd;
+}
+
+/* ================================
+   PSEUDO-ELEMENTS
+   ================================ */
+
+/* Adds content before heading */
+h2::before {
+    content: "★ ";
+}
+
+/* Adds content after heading */
+h2::after {
+    content: " ★";
+}
+
+/* ================================
+   COMBINATORS
+   ================================ */
+
+/* Child combinator: direct p child */
+.parent > p {
+    color: #1976d2;
+    font-weight: bold;
+}
+
+/* Descendant combinator */
+.parent p {
+    padding: 5px;
+}
+
+/* Adjacent sibling combinator */
+.sibling-one + .sibling-two {
+    color: #d32f2f;
+}
+
+/* General sibling combinator */
+.sibling-one ~ .sibling-three {
+    color: #7b1fa2;
+}
+
+/* Form styling */
+input,
+button {
+    padding: 12px;
+    margin: 8px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #263238;
+    color: white;
+}
+    

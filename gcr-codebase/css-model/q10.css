@@ -1,0 +1,113 @@
+/* Remove default margin */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+
+    background-color: #263238;
+}
+
+/* Website logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+/* Individual links */
+.nav-links a {
+    padding: 10px 18px;
+
+    color: white;
+    text-decoration: none;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+    /* Required smooth transition */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    background-color: #546e7a;
+    border-color: white;
+}
+
+/* Active link */
+.nav-links a.active {
+    background-color: #1976d2;
+    border-bottom: 3px solid #90caf9;
+}
+
+/* Main content */
+main {
+    flex: 1;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+
+    background-color: #263238;
+    color: white;
+}
+
+/* Responsive navbar below 700px */
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links a {
+        width: auto;
+    }
+
+    .hero {
+        padding: 60px 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}

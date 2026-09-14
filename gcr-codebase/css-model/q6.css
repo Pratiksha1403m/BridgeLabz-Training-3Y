@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+    background-color: #263238;
+    color: white;
+}
+
+/* Arrange boxes horizontally */
+.transform-container {
+    min-height: 65vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+/* Each transformation item */
+.transform-item {
+    text-align: center;
+}
+
+/* Common box styling */
+.box {
+    width: 130px;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1976d2;
+    color: white;
+    font-weight: bold;
+
+    /* Required transition */
+    transition: all 0.4s ease;
+}
+
+/* Rotate */
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+/* Scale */
+.scale:hover {
+    transform: scale(1.3);
+}
+
+/* Translate */
+.translate:hover {
+    transform: translateY(-30px);
+}
+
+/* Skew */
+.skew:hover {
+    transform: skew(15deg);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #263238;
+    color: white;
+}
