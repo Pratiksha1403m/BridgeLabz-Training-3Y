@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.profile-text {
+    max-width: 650px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+form {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}

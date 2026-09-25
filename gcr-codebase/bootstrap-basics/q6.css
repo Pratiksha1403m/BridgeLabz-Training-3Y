@@ -1,0 +1,19 @@
+body {
+    background: #f5f6f8;
+    font-family: Arial, sans-serif;
+}
+
+.summary {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.alert {
+    padding: 18px;
+}
+
+.card {
+    border: none;
+}

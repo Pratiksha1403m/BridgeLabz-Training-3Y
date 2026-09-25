@@ -1,0 +1,28 @@
+body {
+    background: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.pagination {
+    margin-top: 30px;
+}
+
+.page-link {
+    padding: 10px 16px;
+}
+
+@media (max-width: 576px) {
+    .pagination {
+        flex-wrap: wrap;
+    }
+}

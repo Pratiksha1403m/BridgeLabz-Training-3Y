@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="q7.css">
+</head>
+<body>
+
+<header class="bg-dark text-white py-4">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="h2 mb-0">My Tasks</h1>
+            <span class="badge bg-danger fs-6">
+                Pending <span class="badge bg-light text-dark">4</span>
+            </span>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="container py-5">
+
+        <div class="card shadow-sm">
+            <div class="card-body p-0">
+
+                <div class="list-group list-group-flush">
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center p-4">
+                        <div>
+                            <h5 class="mb-1">Complete Project Report</h5>
+                            <p class="mb-0 text-muted">Submit before Friday</p>
+                        </div>
+                        <span class="badge bg-danger">High</span>
+                    </div>
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center p-4">
+                        <div>
+                            <h5 class="mb-1">Update Portfolio</h5>
+                            <p class="mb-0 text-muted">Add recent projects</p>
+                        </div>
+                        <span class="badge bg-warning text-dark">Medium</span>
+                    </div>
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center p-4">
+                        <div>
+                            <h5 class="mb-1">Read Documentation</h5>
+                            <p class="mb-0 text-muted">Learn Bootstrap utilities</p>
+                        </div>
+                        <span class="badge bg-success">Low</span>
+                    </div>
+
+                    <div class="list-group-item d-flex justify-content-between align-items-center p-4">
+                        <div>
+                            <h5 class="mb-1">Practice Coding</h5>
+                            <p class="mb-0 text-muted">Solve two problems</p>
+                        </div>
+                        <span class="badge bg-warning text-dark">Medium</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <button class="btn btn-success">
+                Completed <span class="badge bg-light text-success">3</span>
+            </button>
+        </div>
+
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-4">
+    <p class="mb-0">Task Tracker © 2026</p>
+</footer>
+
+</body>
+</html>
