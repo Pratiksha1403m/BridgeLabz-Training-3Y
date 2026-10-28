@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Form Builder</title>
+</head>
+<body>
+    <h2>Dynamic Form</h2>
+
+    <div id="formContainer"></div>
+
+    <h3>Submitted Data</h3>
+    <pre id="output"></pre>
+
+    <script>
+        "use strict";
+
+        class FormBuilder {
+            constructor(fields) {
+                this.fields = fields;
+                this.container = document.getElementById("formContainer");
+            }
+
+            createForm() {
+                const form = document.createElement("form");
+                form.id = "dynamicForm";
+
+                this.fields.forEach(field => {
+                    const label = document.createElement("label");
+                    label.textContent = field.label;
+
+                    const input = document.createElement("input");
+                    input.type = field.type;
+                    input.name = field.name;
+                    input.required = Boolean(field.required);
+
+                    form.appendChild(label);
+                    form.appendChild(input);
+                    form.appendChild(document.createElement("br"));
+                });
+
+                const button = document.createElement("button");
+                button.type = "submit";
+                button.textContent = "Submit";
+
+                form.appendChild(button);
+                this.container.appendChild(form);
+
+                form.addEventListener("submit", event => {
+                    event.preventDefault();
+
+                    const data = this.getFormData();
+
+                    document.getElementById("output").textContent =
+                        JSON.stringify(data, null, 2);
+
+                    console.log("Form Data:", data);
+                });
+            }
+
+            getFormData() {
+                const form = document.getElementById("dynamicForm");
+                const data = {};
+
+                this.fields.forEach(field => {
+                    data[field.name] = form.elements[field.name].value;
+                });
+
+                return data;
+            }
+        }
+
+        const fields = [
+            {
+                type: "text",
+                name: "username",
+                label: "Username",
+                required: true
+            },
+            {
+                type: "email",
+                name: "email",
+                label: "Email",
+                required: true
+            },
+            {
+                type: "number",
+                name: "age",
+                label: "Age",
+                required: true
+            }
+        ];
+
+        const builder = new FormBuilder(fields);
+        builder.createForm();
+    </script>
+</body>
+</html>

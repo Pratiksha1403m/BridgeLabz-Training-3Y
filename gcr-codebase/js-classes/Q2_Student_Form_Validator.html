@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Form Validator</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 450px;
+            margin: 30px auto;
+        }
+
+        input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 2px solid gray;
+        }
+
+        .valid {
+            border-color: green;
+        }
+
+        .invalid {
+            border-color: red;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Registration</h2>
+
+    <form id="studentForm" novalidate>
+        <label>Name</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="text" id="email">
+
+        <label>Phone</label>
+        <input type="text" id="phone">
+
+        <label>Password</label>
+        <input type="password" id="password">
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script>
+        "use strict";
+
+        const form = document.getElementById("studentForm");
+
+        const patterns = {
+            name: /^[A-Za-z]+$/,
+            email: /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/,
+            phone: /^\d{10}$/,
+            password: /^(?=.*[A-Z])(?=.*\d)(?=.*[^A-Za-z0-9]).+$/
+        };
+
+        const errorMessages = {
+            name: "Name must contain alphabets only.",
+            email: "Enter a valid email address.",
+            phone: "Phone must contain exactly 10 digits.",
+            password: "Password needs uppercase, number and special character."
+        };
+
+        function validateField(fieldName) {
+            const input = document.getElementById(fieldName);
+            const value = input.value.trim();
+            const isValid = patterns[fieldName].test(value);
+
+            input.classList.toggle("valid", isValid);
+            input.classList.toggle("invalid", !isValid);
+
+            return isValid;
+        }
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const fields = ["name", "email", "phone", "password"];
+            let allValid = true;
+
+            fields.forEach(fieldName => {
+                const valid = validateField(fieldName);
+
+                if (!valid) {
+                    allValid = false;
+                }
+            });
+
+            const result = document.getElementById("result");
+
+            result.textContent = allValid
+                ? "Registration successful!"
+                : "Please correct the fields highlighted in red.";
+
+            result.className = allValid ? "" : "error";
+            result.style.color = allValid ? "green" : "red";
+
+            console.log("Form valid:", allValid);
+        });
+    </script>
+</body>
+</html>
