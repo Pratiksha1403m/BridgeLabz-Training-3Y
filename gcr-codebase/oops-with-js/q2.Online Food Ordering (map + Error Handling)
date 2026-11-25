@@ -1,0 +1,33 @@
+
+const menu = [
+    { name: "Pizza", price: 200 },
+    { name: "Burger", price: 100 },
+    { name: "Pasta", price: 150 }
+];
+
+function calculateBill(orderItems) {
+    
+    const prices = orderItems.map(item => {
+        const food = menu.find(food => food.name === item);
+
+        if (!food) {
+            throw new Error("Invalid food item: " + item);
+        }
+
+        return food.price;
+    });
+
+    const total = prices.reduce((sum, price) => {
+        return sum + price;
+    }, 0);
+
+    return total;
+}
+
+try {
+    console.log("Total Bill:", calculateBill(["Pizza", "Burger"]));
+
+    console.log("Total Bill:", calculateBill(["Pizza", "Rice"]));
+} catch (error) {
+    console.log("Error:", error.message);
+}
